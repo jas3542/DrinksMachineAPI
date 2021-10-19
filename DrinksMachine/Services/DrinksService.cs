@@ -33,7 +33,8 @@ namespace DrinksMachine.Services
             recipe.Add(boilWater());
             recipe.Add("Steeping the water");
             recipe.Add(pourDrinkInCup(tea));
-            recipe.Add("Adding a piece of lemon");
+            if (tea.LemonTea)
+                recipe.Add("Adding a piece of lemon");
 
             return recipe;
         }

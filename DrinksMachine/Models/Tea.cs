@@ -7,10 +7,10 @@ namespace DrinksMachine.Models
 {
     public class Tea : Drink
     {
-        public bool LeamonTea { get; set; }
+        public bool LemonTea { get; set; }
 
         public Tea() {
-            this.LeamonTea = false;
+            this.LemonTea = false;
         }
 
     }
