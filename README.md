@@ -3,3 +3,4 @@
 # TODO:
 * Add logs.
 * Check for null parameters.
+* Unit testing.
