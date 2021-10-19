@@ -29,7 +29,7 @@ namespace DrinksMachine
             services.AddControllers();
 
             // Registering services:
-            services.AddScoped<IDrinksService, DrinksService>();
+            services.AddTransient<IDrinksService, DrinksService>();
 
             // CORS
             services.AddCors(o => o.AddPolicy("CorsAllowAll", builder =>

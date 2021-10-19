@@ -26,7 +26,7 @@ namespace DrinksMachine.Controllers
 
         [HttpPost]
         [Route("tea/recipe")]
-        public Task<IList<string>> getTeaRecipe([FromBody] Tea tea)
+        public Task<IList<string>> getTea([FromBody] Tea tea)
         {
             //TODO:
             // check if tea is null
@@ -36,7 +36,7 @@ namespace DrinksMachine.Controllers
 
         [HttpPost]
         [Route("coffee/recipe")]
-        public Task<IList<string>> getCoffeeRecipe([FromBody] Coffee coffee)
+        public Task<IList<string>> getCoffee([FromBody] Coffee coffee)
         {
             //TODO:
             // check if tea is null
@@ -46,7 +46,7 @@ namespace DrinksMachine.Controllers
 
         [HttpPost]
         [Route("chocolate/recipe")]
-        public Task<IList<string>> getChocolateRecipe([FromBody] Chocolate chocolate)
+        public Task<IList<string>> getChocolate([FromBody] Chocolate chocolate)
         {
             //TODO:
             // check if tea is null
